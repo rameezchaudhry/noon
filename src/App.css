@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 213px;
 }
 
 .App-logo {
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bg-color{
+  background-color: #f7f428 !important;
+}
+.bg-color-mega{
+  background-color: #f8f695 !important;
 }

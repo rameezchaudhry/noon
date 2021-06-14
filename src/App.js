@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from "./component/slider"
+import Cards from './component/cards'
+import React from 'react';
+import Ad from './component/ad';
+import FilterCategory from "./component/filterCategory"
+import Megadealbar from './component/megadealbar';
+import Footer from './component/footer';
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navbar />
+      <Slider />
+      <FilterCategory />
+      <Cards />
+      <Ad />
+      <Megadealbar />
+      <Footer />
+      
+      
+     </div>
   );
 }
 
